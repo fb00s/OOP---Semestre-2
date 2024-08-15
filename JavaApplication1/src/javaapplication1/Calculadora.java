@@ -18,7 +18,11 @@ public class Calculadora {
     }
     
     public void setNum2(double num2){
-        this.num2 = num2;
+        if (num2 == 0){
+            throw new ArithmeticException("Divisão por zero");
+        } else {
+            this.num2 = num2;
+        }
     }
     
     public double getNum1(){

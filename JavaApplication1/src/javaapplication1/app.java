@@ -14,13 +14,12 @@ public class app {
         Calculadora calculadora1 = new Calculadora();
         
         calculadora1.setNum1(30);
-        calculadora1.setNum2(5);
+        calculadora1.setNum2(0);
         
         System.out.println("Soma dos numeros: " + calculadora1.somar());
         System.out.println("Subtracao dos numeros: " + calculadora1.subtrair());
         System.out.println("Multiplicacao dos numeros: " + calculadora1.multiplicar());
         System.out.println("Divisao dos numeros: " + calculadora1.dividir());
         
-        System.out.println("Numero 1: " + calculadora1.getNum1());
     }
 }
