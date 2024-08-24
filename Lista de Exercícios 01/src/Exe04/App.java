@@ -39,8 +39,10 @@ public class App {
         
         for (int i = 3; i > 0; i--){
             
-            System.out.println("Nome: " + vetorPessoas[i - 1].nome + "\nPeso: " + vetorPessoas[i - 1].peso +
-                    "kg\nAltura: " + vetorPessoas[i - 1].altura + "m\nIMC: " + vetorPessoas[i - 1].calcularImc());
+            Pessoa pessoa = vetorPessoas[i - 1];
+            
+            System.out.println("Nome: " + pessoa.nome + "\nPeso: " + pessoa.peso +
+                    "kg\nAltura: " + pessoa.altura + "m\nIMC: " + pessoa.calcularImc());
             System.out.println("-------------------------");
         }
     }
